@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+head {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ff8882;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2, h4, h5 {
+    color: #9dbeb9  ;
+    font-family: 'Noto Sans TC';
+}
+
+h3 {
+    color: #9dbeb9;
+    font-family: 'Noto Sans TC'
+}
+
+p {
+    font-family: 'Noto Sans TC';
+    color: rgb(129, 134, 139);
+}
+
+a {
+    color: #ff8882
+}
+
+#Name {
+    letter-spacing: 4px;
+    font-size: 600%;
+    display: inline-block;
+    color: Snow;
+    font-weight: 200;
+}
+
+#Headline {
+    color: Snow;
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 1.5 font-family: Lato;
+}
+
+#profileIcon {
+    display: inline-block;
+    right: 1100px;
+    bottom: 35px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#CPU-img {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    left: 1000px;
+    top: 500px;
+}
+
+#Yoga {
+    width: 150px;
+    height: 200px;
+    display: inline;
+    right: 625px;
+    top: 1250px;
+}
+
+.top-container {
+    background-color: #9dbeb9;
+    position: relative;
+    padding-top: 75px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+}
+
+.greeting {
+    color: #9dbeb9;
+}
+
+
+.btn {
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   color: #FFFFFF;
+   font-family: 'Noto Sans TC';
+   font-size: 15px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #9DBEB9;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: inset #9DBEB9 0;
+   background: #9DBEB9;
+   background-image: -webkit-linear-gradient(top, #9DBEB9, #ABE7DE);
+   background-image: -moz-linear-gradient(top, #9DBEB9, #ABE7DE);
+   background-image: -ms-linear-gradient(top, #9DBEB9, #ABE7DE);
+   background-image: -o-linear-gradient(top, #9DBEB9, #ABE7DE);
+   background-image: -webkit-gradient(to bottom, #9DBEB9, #ABE7DE);
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
